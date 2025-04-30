@@ -1,0 +1,617 @@
+<!-- Declares the document type and version of HTML being used (HTML5) -->
+<!DOCTYPE html>
+
+<!-- Root element of the HTML document, with language set to English -->
+<html lang="en">
+
+<head>
+    <!-- Sets the character encoding to UTF-8 (supports most characters from all languages) -->
+    <meta charset="utf-8">
+
+    <!-- Sets the title of the web page that appears in the browser tab -->
+    <title>My Profile</title>
+
+    <!-- Ensures the website is responsive on all devices by setting the viewport width -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Metadata keywords for SEO (search engines) -->
+    <meta content="Free Website Template" name="keywords">
+
+    <!-- Metadata description for SEO -->
+    <meta content="Free Website Template" name="description">
+
+    <!-- Sets the favicon (small icon shown in browser tab) -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Imports a Google Font (Montserrat) with various font weights -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Links Bootstrap CSS for responsive layout and components -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Links Font Awesome icons for social/media icons etc. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Animation library for scroll-based animations -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Owl Carousel CSS for responsive image/content sliders -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Lightbox CSS for image pop-up galleries -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Link to your own main CSS file for custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- Body tag starts here. 
+     data-spy="scroll" allows Bootstrap to highlight nav links when scrolling,
+     data-target links to the navigation bar,
+     data-offset sets the scroll offset value -->
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- Navigation Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+
+            <!-- Website logo or brand (currently empty link) -->
+            <a href="index.html" class="navbar-brand"></a>
+
+            <!-- Toggler button for mobile view navigation -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navigation menu -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <!-- Navigation links that scroll to page sections -->
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#experience" class="nav-item nav-link">Experience</a>
+                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+
+        <!-- Hero Section Start -->
+<div class="hero" id="home"> <!-- Section container with ID 'home' (used for navigation link scrolling) -->
+    <div class="container-fluid"> <!-- Full-width Bootstrap container -->
+        <div class="row align-items-center"> <!-- Bootstrap row with vertical center alignment -->
+
+            <!-- Left column: text content -->
+            <div class="col-sm-12 col-md-6"> <!-- Full-width on small screens, half-width on medium and larger -->
+                <div class="hero-content"> <!-- Wrapper for the hero text and buttons -->
+
+                    <div class="hero-text"> <!-- Text section -->
+                        <p>I'm</p> <!-- Short introductory phrase -->
+                        <h1>Tallyta Gana</h1> <!-- Main headline: my name -->
+                        
+                        
+                        <!-- A text block that can be animated with typing effects using a JavaScript plugin -->
+                        <h2><span class="typed-text-output"></span></h2>
+                        <div class="typed-text d-none">
+                          Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer
+                        </div>
+                          
+                    </div>
+
+                    <div class="hero-btn"> <!-- Call-to-action buttons -->
+                        <a class="btn" href="">Hire Me</a> <!-- Button that links to hiring or freelance inquiry (needs href) -->
+                        <a class="btn" href="">Contact Me</a> <!-- Button that links to the contact section or form -->
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Right column: hero image -->
+            <div class="col-sm-12 col-md-6 d-none d-md-block"> 
+                <!-- Full-width on small screens, half-width on medium+.
+                     Hidden on small screens with d-none, shown from medium screens with d-md-block -->
+                <div class="hero-image">
+                    <img src="/img/Tallyta.png.jfif" alt="Hero Image"> <!--  profile or banner image -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Hero Section End -->
+
+
+
+        <!-- About Section Start -->
+<div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+    <!-- Main container with fade-in animation effect (from WOW.js) and slight delay -->
+    <div class="container-fluid"> <!-- Full-width Bootstrap container -->
+        <div class="row align-items-center"> <!-- Bootstrap row with vertical alignment -->
+
+            <!-- Left column: Image -->
+            <div class="col-lg-6"> <!-- Half-width column on large screens -->
+                <div class="about-img"> <!-- Wrapper for the image -->
+                    <img src="/img/tallytagana.jpeg" alt="Image"> <!-- Profile or about-related image -->
+                </div>
+            </div>
+
+            <!-- Right column: Content -->
+            <div class="col-lg-6">
+                <div class="about-content"> <!-- Wrapper for text and skills -->
+
+                    <!-- Section header -->
+                    <div class="section-header text-left"> <!-- Header aligned to the left -->
+                        <p>Learn About Me</p> <!-- Small subtitle -->
+                        <h2>3 Years Experience</h2> <!-- Main heading -->
+                    </div>
+
+                    <!-- About text -->
+                    <div class="about-text">
+                        <p>
+                            Hi, I'm Tallyta Gana, a web developer with a passion for crafting innovative and intuitive applications. 
+                            Proficient in CSS, HTML, JavaScript, React, Node.js, and Python, I excel at building dynamic, efficient, 
+                            and user-friendly web solutions.
+                        </p> <!-- Introduction and skills summary -->
+                    </div>
+
+                    <!-- Skills section with progress bars -->
+                    <div class="skills">
+
+                        <!-- Skill: Web Design -->
+                        <div class="skill-name">
+                            <p>Web Design</p><p>85%</p> <!-- Label and percentage -->
+                        </div>
+                        <div class="progress"> <!-- Bootstrap progress bar -->
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!-- Skill: Web Development -->
+                        <div class="skill-name">
+                            <p>Web Development</p><p>95%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!-- Skill: Apps Design -->
+                        <div class="skill-name">
+                            <p>Apps Design</p><p>90%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!-- Skill: Apps Development -->
+                        <div class="skill-name">
+                            <p>Apps Development</p><p>85%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- Learn more button -->
+                    <a class="btn" href="">Learn More</a> <!-- Link button for additional content (e.g., resume, portfolio page) -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- About Section End -->
+
+        <!-- Service Section Start -->
+<div class="service" id="service"> <!-- Main container for the services section, also acts as an anchor target -->
+    <div class="container"> <!-- Bootstrap container for padding and layout -->
+        
+        <!-- Section header with animation -->
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>What I do</p> <!-- Subtitle -->
+            <h2>Services</h2> <!-- Section title -->
+        </div>
+
+        <div class="row"> <!-- Bootstrap row to align service items -->
+
+            <!-- Service Item 1: Web Design -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s"> <!-- Responsive column with animation -->
+                <div class="service-item"> <!-- Container for the service -->
+                    <div class="service-icon"> <!-- Icon wrapper -->
+                        <i class="fa fa-laptop"></i> <!-- Font Awesome icon for design -->
+                    </div>
+                    <div class="service-text"> <!-- Text wrapper -->
+                        <h3>Web Design</h3> <!-- Service title -->
+                        <p>
+                            Designed intuitive and user-friendly interfaces for Fix It, ensuring a seamless experience for users searching for job opportunities.
+
+                            Focused on responsive and accessible designs using CSS, HTML, and React.
+                        </p> <!-- Description -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Item 2: Web Development -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-laptop-code"></i> <!-- Icon representing coding/development -->
+                    </div>
+                    <div class="service-text">
+                        <h3>Web Development</h3>
+                        <p>
+                            Developed Fix It, a platform that connects unemployed individuals with job opportunities in various sectors like plumbing, tutoring, and electrical work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Item 3: Apps Design -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fab fa-android"></i> <!-- Icon for Android/app-related work -->
+                    </div>
+                    <div class="service-text">
+                        <h3>Apps Design</h3>
+                        <p>
+                            Built Echo, a real-time chat application using React, enhancing communication efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Item 4: Apps Development -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fab fa-apple"></i> <!-- Apple icon suggesting cross-platform app experience -->
+                    </div>
+                    <div class="service-text">
+                        <h3>Apps Development</h3>
+                        <p>
+                            Experience with both frontend (React, JavaScript) and backend (Node.js, Python) technologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</div>
+<!-- Service Section End -->
+
+        
+        <!-- Experience Section Start -->
+<div class="experience" id="experience"> <!-- Main container for the experience section, identified with an ID for navigation -->
+    <div class="container"> <!-- Bootstrap container for padding and layout -->
+
+        <!-- Section header with centered text and animation -->
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>My Resume</p> <!-- Subtitle -->
+            <h2>Working Experience</h2> <!-- Title of the section -->
+        </header>
+
+        <div class="timeline"> <!-- Custom timeline container to visually represent experience items -->
+
+            <!-- Timeline item 1: Capaciti -->
+            <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s"> <!-- Left-aligned timeline entry with animation -->
+                <div class="timeline-text">
+                    <div class="timeline-date">2025 - 2025</div> <!-- Duration -->
+                    <h2>Web Developer Associate</h2> <!-- Job Title -->
+                    <h4>Capaciti</h4> <!-- Company -->
+                    <p>
+                        As a Software Development Associate at Capaciti, I gained hands-on experience in building and maintaining web applications. I worked with technologies like JavaScript, React, Node.js, and Python to develop scalable solutions. My role involved collaborating with teams, debugging code, and optimizing application performance. This experience strengthened my problem-solving skills and deepened my understanding of full-stack development..
+                    </p> <!-- Description -->
+                </div>
+            </div>
+
+            <!-- Timeline item 2: Self-employed tutor -->
+            <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s"> <!-- Right-aligned entry with animation -->
+                <div class="timeline-text">
+                    <div class="timeline-date">2045 - 2050</div> <!-- Note: Dates seem futuristic; you might want to double-check -->
+                    <h2>Software Development Tutor</h2>
+                    <h4>Self employed</h4>
+                    <p>
+                        As a self-made tutor, I have helped aspiring developers learn the fundamentals of web development, including HTML, CSS, JavaScript, React, and backend technologies like Node.js and Python. I create structured learning plans, provide hands-on coding exercises, and mentor students to build real-world projects. My goal is to make complex concepts easy to understand and help others grow in their software development journey
+                    </p>
+                </div>
+            </div>
+
+            <!-- Timeline item 3: Freelance developer -->
+            <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">2045 - 2050</div> <!-- Again, consider adjusting the date -->
+                    <h2>Web Developer Freelancer</h2>
+                    <h4>Tri-tech</h4>
+                    <p>
+                        As a freelance web developer, I design and build customized web solutions tailored to client needs. From creating responsive websites to developing full-stack applications, I leverage technologies like HTML, CSS, JavaScript, React, Node.js, and Python to deliver high-quality projects.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- End timeline container -->
+    </div> <!-- End main container -->
+</div>
+<!-- Experience Section End -->
+
+        
+        
+        <!-- Banner Start -->
+<div class="banner wow zoomIn" data-wow-delay="0.1s"> 
+    <!-- Section container with a zoom-in animation effect triggered on scroll using WOW.js -->
+
+    <div class="container"> 
+        <!-- Bootstrap container for layout and spacing -->
+
+        <div class="section-header text-center">
+            <!-- Section header, centered -->
+            <p>Resume</p> <!-- Subtitle text -->
+            <h2>Download <span>My Resume</span></h2> <!-- Main title with emphasis using <span> -->
+        </div>
+
+        <div class="container banner-text">
+            <!-- Container for the descriptive text and download button -->
+            <p>
+                Interested in working together? Check out my resume to see my experience, skills, and projects.
+            </p> <!-- Description encouraging users to download your resume -->
+
+            <a href="path/to/your/resume.pdf" class="btn" download>Download My Resume</a>
+            <!-- Button linking to your resume file. The 'download' attribute tells the browser to download the file instead of opening it. 
+                 Make sure to replace "path/to/your/resume.pdf" with the actual path to your resume -->
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+
+
+        <!-- Portfolio Start -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <!-- Section header with a zoom-in animation effect triggered on scroll -->
+            <p>My Portfolio</p> <!-- Subtitle text -->
+            <h2>My Excellent Portfolio</h2> <!-- Main title -->
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ul id="portfolio-filter">
+                    <!-- Filter buttons to categorize the portfolio items -->
+                    <li data-filter="*" class="filter-active">All</li> <!-- Show all items -->
+                    <li data-filter=".filter-1">Web Design</li> <!-- Filter for Web Design -->
+                    <li data-filter=".filter-2">Web Apps</li> <!-- Filter for Web Apps -->
+                    <li data-filter=".filter-3">Chat Apps</li> <!-- Filter for Chat Apps -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container">
+            <!-- Portfolio items, each with a category class (e.g., filter-1 for Web Design) -->
+            
+            <!-- Web Design Item -->
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="portfolio-wrap">
+                    <div class="portfolio-img">
+                        <img src="/img/fix it.jpg" alt="Image">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Fix-It Website</h3> <!-- Project title -->
+                        <a class="btn" href="/img/fix it.jpg" data-lightbox="portfolio">+</a> <!-- Lightbox link to view full image -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Apps Item -->
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="portfolio-wrap">
+                    <div class="portfolio-img">
+                        <img src="/img/Calculator app.jpg" alt="Image">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Calculator App</h3> <!-- Project title -->
+                        <a class="btn" href="/img/Calculator app.jpg" data-lightbox="portfolio">+</a> <!-- Lightbox link to view full image -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Apps Item -->
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="portfolio-wrap">
+                    <div class="portfolio-img">
+                        <img src="/img/echo chat app.jpg" alt="Image">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Echo Chat App</h3> <!-- Project title -->
+                        <a class="btn" href="/img/echo chat app.jpg" data-lightbox="portfolio">+</a> <!-- Lightbox link to view full image -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Design Item -->
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="portfolio-wrap">
+                    <div class="portfolio-img">
+                        <img src="/img/event planner app.jpg" alt="Image">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Event planner</h3> <!-- Project title -->
+                        <a class="btn" href="/img/event planner app.jpg" data-lightbox="portfolio">+</a> <!-- Lightbox link to view full image -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Portfolio End -->
+
+        
+        <!-- Banner Start -->
+<div class="banner wow zoomIn" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="section-header text-center">
+            <!-- Section header with a zoom-in animation effect triggered on scroll -->
+            <p>My Services</p> <!-- Subtitle text -->
+            <h2>Custom <span>Web Solutions</span></h2> <!-- Main title with a highlighted part "Web Solutions" -->
+        </div>
+
+        <div class="container banner-text">
+            <p>
+                I build responsive websites, full-stack applications, and user-friendly web experiences tailored to your needs. Let’s bring your ideas to life!
+            </p> <!-- Description of your services -->
+            <a href="#contact" class="btn">Hire Me</a> <!-- Call-to-action button linking to the contact section -->
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+
+        
+        <!-- Contact Start -->
+<div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+    <!-- The main container for the contact section -->
+    <div class="container-fluid">
+        <!-- Container for proper alignment and structure -->
+        <div class="container">
+            <!-- Row to align content -->
+            <div class="row align-items-center">
+                <div class="col-md-4"></div> <!-- Empty column for spacing/positioning -->
+                <div class="col-md-8">
+                    <!-- Column that holds the contact form -->
+                    <div class="contact-form">
+                        <div id="success"></div> <!-- Placeholder for showing success messages after form submission -->
+                        <form id="contactForm">
+                            <!-- Contact form start -->
+
+                            <div class="control-group">
+                                <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+                                <!-- Input field for the user's name, marked as required -->
+                                <p class="help-block"></p> <!-- Placeholder for error/help message -->
+                            </div>
+
+                            <div class="control-group">
+                                <input type="email" id="email" class="form-control" placeholder="Your Email" required />
+                                <!-- Input field for the user's email, marked as required -->
+                                <p class="help-block"></p> <!-- Placeholder for error/help message -->
+                            </div>
+
+                            <div class="control-group">
+                                <input type="text" id="subject" class="form-control" placeholder="Subject" required />
+                                <!-- Input field for the subject of the message, marked as required -->
+                                <p class="help-block"></p> <!-- Placeholder for error/help message -->
+                            </div>
+
+                            <div class="control-group">
+                                <textarea id="message" class="form-control" placeholder="Message" required></textarea>
+                                <!-- Textarea for the user's message, marked as required -->
+                                <p class="help-block"></p> <!-- Placeholder for error/help message -->
+                            </div>
+
+                            <div>
+                                <button class="btn" id="sendMessageButton" type="submit">Send Message</button>
+                                <!-- Button to submit the form -->
+                            </div>
+                        </form>
+                        <!-- Contact form end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+
+        <!-- Footer Start -->
+<div class="footer wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid">
+        <!-- Fluid container for full-width layout -->
+        <div class="container">
+            <!-- Centered container for content alignment -->
+            <div class="footer-info">
+                <!-- Footer Information Section -->
+                <h2>Tallyta Gana</h2>
+                <!-- Your name displayed in the footer -->
+
+                <h3>33 Winderemere Street, Humewood, Port Elizabeth, 6001</h3>
+                <!-- Your address -->
+
+                <div class="footer-menu">
+                    <!-- Contact Information -->
+                    <p>0655949168</p>
+                    <!-- Your phone number -->
+
+                    <p>ganatallyta@gmail.com</p>
+                    <!-- Your email address -->
+                </div>
+
+                <div class="footer-social">
+                    <!-- Social Media Links -->
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <!-- Twitter icon (currently no link) -->
+
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <!-- Facebook icon (currently no link) -->
+
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <!-- YouTube icon (currently no link) -->
+
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <!-- Instagram icon (currently no link) -->
+
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <!-- LinkedIn icon (currently no link) -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright">
+            <!-- Copyright Section -->
+            <!-- <p>&copy; <a href="#">Tallyta Gana</a>, All Right Reserved |</a></p> -->
+            <!-- Copyright text, with a link to the website's name and a credit to the design source (HTML Codex) -->
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
