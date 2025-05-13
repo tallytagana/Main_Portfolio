@@ -424,7 +424,7 @@
                         Interested in working together? Check out my resume to see my experience, skills, and projects.
                     </p> <!-- Description encouraging users to download your resume -->
         
-                    <a href="path/to/your/resume.pdf" class="btn" download>Download My Resume</a>
+                    <a href="/img/Tallyta Gana Resume.pdf" class="btn" download>Download My Resume</a>
                     <!-- Button linking to your resume file. The 'download' attribute tells the browser to download the file instead of opening it. 
                          Make sure to replace "path/to/your/resume.pdf" with the actual path to your resume -->
                 </div>
@@ -434,6 +434,7 @@
 
         
         <!-- Contact Start -->
+<!-- Contact Start -->
 <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
     <div class="container-fluid">
         <div class="container">
@@ -441,47 +442,47 @@
                 <div class="col-md-4"></div>
                 <div class="col-md-8">
                     <div class="contact-form">
-                        <div id="success"></div>
                         <form action="https://formsubmit.co/ganatallyta@gmail.com" method="POST">
                             <div class="control-group">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-                                <p class="help-block"></p>
                             </div>
 
                             <div class="control-group">
                                 <input type="email" name="email" class="form-control" placeholder="Your Email" required />
-                                <p class="help-block"></p>
                             </div>
 
                             <div class="control-group">
                                 <input type="text" name="subject" class="form-control" placeholder="Subject" required />
-                                <p class="help-block"></p>
                             </div>
 
                             <div class="control-group">
                                 <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-                                <p class="help-block"></p>
                             </div>
 
-                            <!-- Optional: to disable CAPTCHA -->
+                            <!-- Disable CAPTCHA if needed -->
                             <input type="hidden" name="_captcha" value="false">
 
-                            <!-- Optional: redirect after submission -->
-                            <input type="hidden" name="_next" value="thank-you.html">
-
+                            <!-- Redirect to thank-you page -->
+                            <input type="hidden" name="_next" value="thankyou.html">
 
                             <div>
                                 <button class="btn" type="submit">Send Message</button>
+                                <div class="loading-spinner" id="spinner"></div>
                             </div>
                         </form>
-                        <!-- Contact form end -->
+
+                        <!-- Success Message -->
+                        <div class="success-message" id="success-message">
+                            Message sent successfully! You will be redirected shortly.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<!-- Contact form end -->
+                    
 
 
         <!-- Footer Start -->
@@ -562,5 +563,24 @@
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
         <script src="js/main.js"></script>
+
+<script>
+     function handleSubmit(event) {
+    event.preventDefault();
+    const form = document.getElementById("contact-form");
+    const spinner = document.getElementById("spinner");
+    const successMessage = document.getElementById("success-message");
+
+    // Show the spinner
+    spinner.style.display = "inline-block";
+
+    // Simulate form submission
+    setTimeout(() => {
+        form.submit();  // Submit the form
+        spinner.style.display = "none";  // Hide the spinner
+        successMessage.style.display = "block";  // Show success message
+    }, 1000);
+}
+</script>
     </body>
 </html>
