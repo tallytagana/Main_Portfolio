@@ -443,6 +443,11 @@
                 <div class="col-md-8">
                     <div class="contact-form">
                         <form action="https://formsubmit.co/ganatallyta@gmail.com" method="POST">
+
+                            <!-- Correct _next field -->
+                            <input type="hidden" name="_next" value="https://tallytagana.github.io/Main_Portfolio/thankyou.html">
+                            <input type="hidden" name="_captcha" value="false">
+
                             <div class="control-group">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required />
                             </div>
@@ -458,12 +463,6 @@
                             <div class="control-group">
                                 <textarea name="message" class="form-control" placeholder="Message" required></textarea>
                             </div>
-
-                            <!-- Disable CAPTCHA if needed -->
-                            <input type="hidden" name="_captcha" value="false">
-
-                            <!-- Redirect to thank-you page -->
-                            <input type="hidden" name="_next" value="thankyou.html">
 
                             <div>
                                 <button class="btn" type="submit">Send Message</button>
@@ -481,6 +480,7 @@
         </div>
     </div>
 </div>
+
 <!-- Contact form end -->
                     
 
