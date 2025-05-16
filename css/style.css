@@ -397,11 +397,11 @@ a:focus {
     }
     
     .hero .hero-text h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .hero .hero-text h2 {
-        font-size: 18px;
+        font-size: 15px;
         height: 18px;
     }
     
@@ -503,7 +503,7 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .about .skills {
@@ -1325,6 +1325,10 @@ a:focus {
     margin: 50px 0;
     background: #f9f9f9;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
 
 /* Background Image */
@@ -1342,7 +1346,9 @@ a:focus {
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     color: #ffffff;
-    
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
 }
 
 /* Input and Textarea Styles */
@@ -1357,6 +1363,7 @@ a:focus {
     transition: all 0.3s;
     width: 100%;
     font-size: 25px;
+    text-align: center;
 }
 
 /* Placeholder Styles */
@@ -1394,6 +1401,7 @@ a:focus {
     background: #ffffff;
     box-shadow: none;
 }
+
 
 /* Loading Spinner */
 .loading-spinner {
@@ -1577,7 +1585,7 @@ a:focus {
 
 .footer .footer-social a i {
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 35px;
     color: #ffffff;
     transition: .3s;
 }
@@ -1587,7 +1595,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: #c084b6;
 }
 
 .footer .copyright {
